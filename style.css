@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Tektur&display=swap');
+
+
+*{
+    color: white;
+}
+body{
+    background-image: url(images/gtr.webp);
+    background-size: cover;
+}
+#navitems li{
+    display: inline;
+    padding-left: 10px;
+    font-family: Tektur;
+    font-weight: 700;
+}
+
+#navitems li:hover{
+    color: yellow;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#mylogo{
+    height: 50px;
+    width: 50px;
+}
+
+#loginbtn{
+    background-color: blue;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+#loginbtn:hover{
+    background-color: black;
+}
